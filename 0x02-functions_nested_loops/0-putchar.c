@@ -1,22 +1,21 @@
-#include "main.h"
-
+#include <stdio.h>
 
 /**
- * main -Entry point of my code,
+ * main - Entry point of my code
  *
- * Return: Aleays 0
+ * Return: Always 0
  */
-
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('u');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
+    putchar('_');
+    putchar('p');
+    putchar('u');
+    putchar('t');
+    putchar('u');
+    putchar('h');
+    putchar('a');
+    putchar('r');
+    putchar('\n');
+
+    return 0;
 }
